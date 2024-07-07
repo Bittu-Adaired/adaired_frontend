@@ -42,7 +42,6 @@ const CaseStudies = async () => {
       <ProcessSection />
       <TestimonialSlider />
       <BlogCards />
-      helloworld
     </>
   );
 };
