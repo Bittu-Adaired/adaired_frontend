@@ -39,7 +39,7 @@ const IntroSection = () => {
           <div className="flex-1 mx-auto ">
             <div className="max-w-lg lg:max-w-full ">
               <Image
-                src="/about_img.webp"
+                src="https://res.cloudinary.com/adaired/image/upload/f_auto,q_auto/v1/Static%20Website%20Images/about_img"
                 alt="About Image"
                 height={500}
                 width={800}
@@ -68,7 +68,7 @@ const IntroSection = () => {
             <div className="flex gap-5 py-1 flex-col sm:flex-row">
               <div className="flex flex-col items-center border p-4 md:p-0 md:border-none md:items-start ">
                 <Image
-                  src="/homePage_about1.svg"
+                  src="https://res.cloudinary.com/adaired/image/upload/f_auto,q_auto/v1/Static%20Website%20Images/homepage_about2"
                   alt=""
                   height={60}
                   width={60}
@@ -86,7 +86,7 @@ const IntroSection = () => {
               </div>
               <div className="flex flex-col items-center border p-4 md:p-0 md:border-none md:items-start ">
                 <Image
-                  src="/homePage_about2.svg"
+                  src="https://res.cloudinary.com/adaired/image/upload/f_auto,q_auto/v1/Static%20Website%20Images/homepage_about1"
                   alt=""
                   height={60}
                   width={60}
@@ -207,7 +207,7 @@ const WorkStation = () => {
       <div>
         <div>
           <Image
-            src="/about_workstation.webp"
+            src="https://res.cloudinary.com/adaired/image/upload/f_auto,q_auto/v1/Static%20Website%20Images/about_page_img1"
             alt="About Image"
             height={600}
             width={800}
@@ -225,7 +225,7 @@ const WorkStation = () => {
       <div>
         <div>
           <Image
-            src="/about_members.webp"
+            src="https://res.cloudinary.com/adaired/image/upload/f_auto,q_auto/v1/Static%20Website%20Images/about_page_img2"
             alt="About Image"
             height={600}
             width={800}
