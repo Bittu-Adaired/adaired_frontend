@@ -65,8 +65,7 @@ const Blog: React.FC<BlogProps> = async ({ params }) => {
               src={`${process.env.NEXT_PUBLIC_IMAGE_URL}blog/${data.image}`}
               height={560}
               width={1000}
-              placeholder="blur"
-              blurDataURL="/banner1.webp"
+               
               alt={data.title}
             />
           </div>

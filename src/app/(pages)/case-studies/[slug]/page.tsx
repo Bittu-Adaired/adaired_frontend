@@ -151,7 +151,7 @@ const Introsection = ({
               priority
               width={1000}
               height={400}
-              placeholder="blur"
+               
               blurDataURL={`${process.env.NEXT_PUBLIC_IMG_URL}${caseStudyImage}`}
             />
           </div>
@@ -226,7 +226,7 @@ const Aboutsection = ({
             alt="hero image"
             width={1000}
             height={400}
-            placeholder="blur"
+             
             blurDataURL={`${process.env.NEXT_PUBLIC_IMG_URL}${challengesImage}`}
             className="object-cover w-full h-full"
           />
@@ -239,7 +239,7 @@ const Aboutsection = ({
             alt="hero image"
             width={1000}
             height={400}
-            placeholder="blur"
+             
             blurDataURL={`${process.env.NEXT_PUBLIC_IMG_URL}${solutionsImage}`}
             className="object-cover w-full h-full"
           />
@@ -308,7 +308,7 @@ const TechnologiesUsedsection = ({
                   alt="Technology used image"
                   width={150}
                   height={150}
-                  placeholder="blur"
+                   
                   blurDataURL={`${process.env.NEXT_PUBLIC_IMG_URL}${category.icon}`}
                 />
               </div>
@@ -431,7 +431,7 @@ const Goalssection = ({
             alt="goals image"
             width={1400}
             height={400}
-            placeholder="blur"
+             
             blurDataURL={`${process.env.NEXT_PUBLIC_IMG_URL}${goalImage}`}
           />
         </div>

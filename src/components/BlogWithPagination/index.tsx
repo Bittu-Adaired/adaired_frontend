@@ -79,8 +79,8 @@ const BlogWPagination: FC<IProps> = ({ data }) => {
                       alt="Blog Image"
                       height={400}
                       width={800}
-                      placeholder="blur"
-                      blurDataURL="/banner1.webp"
+                       
+
                       style={{ objectFit: "cover" }}
                     />
                   </div>

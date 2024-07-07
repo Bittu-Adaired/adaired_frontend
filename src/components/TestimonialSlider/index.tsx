@@ -128,7 +128,7 @@ const TestimonialSlider = () => {
                         {item.review}
                       </p>
                       <Image
-                        src={"/rating-star.svg"}
+                        src={"/assets/images/rating-star.svg"}
                         alt="Rating"
                         width={100}
                         height={50}

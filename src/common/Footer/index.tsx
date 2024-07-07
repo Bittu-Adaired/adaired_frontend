@@ -75,7 +75,7 @@ const Footer = () => {
           <div className="col-span-12 lg:col-span-4">
             <Link href="/">
               <Image
-                src="/Footer_Logo.svg"
+                src="https://res.cloudinary.com/adaired/image/upload/f_auto,q_auto/v1/Static%20Website%20Images/footer_logo"
                 width={200}
                 height={50}
                 alt="Footer Logo"
