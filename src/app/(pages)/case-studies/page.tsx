@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 };
 async function getCaseStudyCategories() {
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/case-studies-category/getCaseStudiesCategory/all`
+    `${process.env.NEXT_PUBLIC_OLD_API_URI}/api/v1/case-studies-category/getCaseStudiesCategory/all`
   );
   const data = await res.json();
   return data.result;
@@ -24,7 +24,7 @@ async function getCaseStudyCategories() {
 
 async function getCaseStudies() {
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/case-studies/all`
+    `${process.env.NEXT_PUBLIC_OLD_API_URI}/api/v1/case-studies/all`
   );
   const data = await res.json();
   return data.result;

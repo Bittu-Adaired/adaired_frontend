@@ -4,7 +4,7 @@ import { MetadataRoute } from "next";
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Services URLs
   const Services = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/services?all=true`
+    `${process.env.NEXT_PUBLIC_OLD_API_URI}/api/v1/services?all=true`
   );
   const { data } = await Services.json();
 
@@ -19,7 +19,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // Case Studies
   const CaseStudies = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/case-studies/all`
+    `${process.env.NEXT_PUBLIC_OLD_API_URI}/api/v1/case-studies/all`
   );
   const caseStudies = await CaseStudies.json();
 
@@ -34,7 +34,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // Blog URLs
   const Blogs = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/blog/findBlog`
+    `${process.env.NEXT_PUBLIC_OLD_API_URI}/api/v1/blog/findBlog`
   );
   const { result } = await Blogs.json();
 

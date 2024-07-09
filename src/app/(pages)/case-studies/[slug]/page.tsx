@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 
 export async function generateStaticParams() {
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/case-studies/all`
+    `${process.env.NEXT_PUBLIC_OLD_API_URI}/api/v1/case-studies/all`
   ).then((res) => res.json());
   const CaseStudies = res.result;
   return CaseStudies.map((CaseStudy: any) => ({
@@ -20,7 +20,7 @@ export async function generateStaticParams() {
 
 async function getCaseStudyData({ slug }: { slug: string }) {
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/case-studies/${slug}`
+    `${process.env.NEXT_PUBLIC_OLD_API_URI}/api/v1/case-studies/${slug}`
   );
   const data = await res.json();
   return data.result;
@@ -53,7 +53,7 @@ export async function generateMetadata({
 
 async function fetchCaseStudyCategory({ slug }: { slug: string }) {
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/case-studies-category/getCaseStudiesCategory/${slug}`,
+    `${process.env.NEXT_PUBLIC_OLD_API_URI}/api/v1/case-studies-category/getCaseStudiesCategory/${slug}`,
     {
       method: "GET",
     }

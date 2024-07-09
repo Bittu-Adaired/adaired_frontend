@@ -29,7 +29,7 @@ const NavItem = ({ activeIndex, navitems }: NavItemProps) => {
   useEffect(() => {
     const fetchBlogs = async () => {
       const res = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL}/api/v1/blog/findBlog?limit=1&skip=10`
+        `${process.env.NEXT_PUBLIC_OLD_API_URI}/api/v1/blog/findBlog?limit=1&skip=10`
       );
       const data = await res.json();
       setBlogs(data.result);

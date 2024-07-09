@@ -5,7 +5,7 @@ import Button from "@/components/Button";
 
 export async function getBlogsData() {
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/blog/findBlog?limit=3&skip=0`
+    `${process.env.NEXT_PUBLIC_OLD_API_URI}/api/v1/blog/findBlog?limit=3&skip=0`
   );
   const data = await res.json();
 

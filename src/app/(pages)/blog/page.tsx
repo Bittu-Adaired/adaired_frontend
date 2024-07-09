@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 async function getBlogs() {
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/blog/findBlog`
+    `${process.env.NEXT_PUBLIC_OLD_API_URI}/api/v1/blog/findBlog`
   );
   const data = await res.json();
   return data;

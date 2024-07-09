@@ -24,7 +24,6 @@ const baby = Oooh_Baby({
 });
 
 
-
 export default function RootLayout({
   children,
 }: Readonly<{

@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 
 async function getBlogs({ params }: { params: { slug: string } }) {
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/blog/${params.slug}`
+    `${process.env.NEXT_PUBLIC_OLD_API_URI}/api/v1/blog/${params.slug}`
   );
   const data = await res.json();
   return data.result[0];
@@ -38,7 +38,7 @@ export async function generateMetadata({
 }
 export async function generateStaticParams() {
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_API_URL}/api/v1/blog/findBlog`
+    `${process.env.NEXT_PUBLIC_OLD_API_URI}/api/v1/blog/findBlog`
   ).then((res) => res.json());
   const blogs = res.result;
   return blogs.map((blog: any) => ({
