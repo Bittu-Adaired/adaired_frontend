@@ -22,7 +22,7 @@ const TwoColumnFeatureSection: React.FC<TwoColumnFeatureSectionProps> = ({
       </h2>
       <p>
         A website serves as a virtual storefront for a business, providing
-        visitors with a comprehensive view of the business's offerings and
+        visitors with a comprehensive view of the business`&apos;`s offerings and
         expertise. Similarly, web applications assist them in automating
         business operations, enhancing the customer experience, and expanding
         their reach.
@@ -60,7 +60,7 @@ const TwoColumnFeatureSection: React.FC<TwoColumnFeatureSectionProps> = ({
         develop a unique online application, Adaired can help!
       </p>
       <p>
-        So, why wait? Let's collaborate to push your business to the next level
+        So, why wait? Let`&apos;`s collaborate to push your business to the next level
         with our top website development and custom web design services!
       </p>
       <Image
