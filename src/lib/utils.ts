@@ -42,14 +42,6 @@ export const DateComponent = (date: string) => {
   return `${year}-${month}-${day}`;
 };
 
-// utils/shadeColor.ts
-// utils/hexToHexWithAlpha.ts
-export function shadeColor(hex: string, transparency: number): string {
-  const alpha = Math.round((100 - transparency) * 2.55).toString(16).padStart(2, '0').toUpperCase();
-  return `${hex}${alpha}`;
-}
-
-
 
 // utils/hexToHexWithOpacity.ts
 export function hexToHexWithOpacity(hex: string, opacity: number): string {

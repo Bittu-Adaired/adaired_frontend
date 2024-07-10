@@ -9,6 +9,7 @@ import { ServiceData } from "@/data/services/serviceData";
 
 // Sections
 import TwoColumnFeatureSection from "@/components/PageDynamicSections/TwoColumnFeatureSection";
+import FaqSection from "@/components/PageDynamicSections/FaqSection";
 
 const findService = (slug: string) => {
   return ServiceData.find((service) => service.slug === slug);
@@ -58,11 +59,11 @@ const ServicePage: React.FC<ServiceProps> = async ({ params }) => {
             />
           </div>
           <aside className="w-[30%]">
-            <NavigationMenu
-              serviceName={service.serviceName}
-              // subItems={service.subItems}
-            />
+            <NavigationMenu serviceName={service.serviceName} />
           </aside>
+        </div>
+        <div>
+          <FaqSection faqs={service?.bodyData[1]?.body?.faq ?? []} />
         </div>
       </MaxWidthWrapper>
     </>

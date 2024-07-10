@@ -1,8 +1,6 @@
 import React from "react";
-import Icon from "../../../../public/assets/images/TwoColumnFeatureSectionIcon.svg";
 import Image from "next/image";
-import { title } from "process";
-import { hexToHexWithOpacity, shadeColor } from "@/lib/utils";
+import { hexToHexWithOpacity } from "@/lib/utils";
 
 type TwoColumnFeatureSectionProps = {
   colorScheme: string;
@@ -22,8 +20,8 @@ const TwoColumnFeatureSection: React.FC<TwoColumnFeatureSectionProps> = ({
       </h2>
       <p>
         A website serves as a virtual storefront for a business, providing
-        visitors with a comprehensive view of the business`&apos;`s offerings and
-        expertise. Similarly, web applications assist them in automating
+        visitors with a comprehensive view of the business`&apos;`s offerings
+        and expertise. Similarly, web applications assist them in automating
         business operations, enhancing the customer experience, and expanding
         their reach.
       </p>
@@ -60,8 +58,8 @@ const TwoColumnFeatureSection: React.FC<TwoColumnFeatureSectionProps> = ({
         develop a unique online application, Adaired can help!
       </p>
       <p>
-        So, why wait? Let`&apos;`s collaborate to push your business to the next level
-        with our top website development and custom web design services!
+        So, why wait? Let`&apos;`s collaborate to push your business to the next
+        level with our top website development and custom web design services!
       </p>
       <Image
         src={featuredSectionData.imgUrl}

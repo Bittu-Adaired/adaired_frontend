@@ -36,6 +36,40 @@ export const ServiceData = [
           ],
         },
       },
+      {
+        body: {
+          faq: [
+            {
+              question: "What Are Graphic Design Services?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
+            },
+            {
+              question: "Do I Really Need Graphic Design Services?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
+            },
+            {
+              question:
+                "How Can Professional Logo Design Services Help My Brand?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
+            },
+            {
+              question:
+                "Can You Accommodate Specific Design Preferences Or Styles?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
+            },
+            {
+              question:
+                "What Is The Typical Turnaround Time For Graphic Design Projects?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
+            },
+          ],
+        },
+      },
     ],
     createdAt: "",
     updatedAt: "",
@@ -78,6 +112,40 @@ export const ServiceData = [
           ],
         },
       },
+      {
+        body: {
+          faq: [
+            {
+              question:
+                "Does WooCommerce Work For Both Small And Big Businesses?",
+              answer:
+                "WooCommerce is an open-source e-commerce platform suitable for businesses of all sizes. Therefore, whether you have a small startup or a big company, WooCommerce can effectively handle your business needs. The tools and flexibility WooCommerce offers can help you manage and grow your business. ",
+            },
+            {
+              question:
+                "How Much Would It Cost To Create A WooCommerce Website?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
+            },
+            {
+              question: "Do You Provide SEO For WooCommerce Stores?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
+            },
+            {
+              question: "Can You Further Customize Your WooCommerce Plugins?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
+            },
+            {
+              question:
+                "Do You Offer Performance Audits For Existing WooCommerce Stores?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
+            },
+          ],
+        },
+      },
     ],
     createdAt: "",
     updatedAt: "",
@@ -115,6 +183,41 @@ export const ServiceData = [
               title: "Analytics-Driven Strategies",
               description:
                 "Utilize data insights to refine continuous improvement strategies and ensure ongoing business growth.",
+            },
+          ],
+        },
+      },
+      {
+        body: {
+          faq: [
+            {
+              question:
+                "Why Should I Use Laravel Rather Than Other PHP Frameworks For My Web Development Project?",
+              answer:
+                "Choosing the Laravel framework has several advantages, including increased security, ease of use, and a diverse set of features. Its expressive syntax reduces development time, lowers costs, and outperforms many competing frameworks. Furthermore, Laravel's ongoing updates and improvements keep it ahead of the curve among various programming languages and Laravel versions. ",
+            },
+            {
+              question:
+                "Can You Assist Me With Updating Or Migrating My Existing Website To Laravel?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
+            },
+            {
+              question: "What Impact Can Laravel Have On My Website's SEO?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
+            },
+            {
+              question:
+                "Can You Offer Ongoing Support And Maintenance For My Laravel-Based Website?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
+            },
+            {
+              question:
+                "How Quickly Can You Turn Around A Laravel Web Development Project?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
             },
           ],
         },
@@ -162,6 +265,40 @@ export const ServiceData = [
           ],
         },
       },
+      {
+        body: {
+          faq: [
+            {
+              question: "What Is Shopify Website Development?",
+              answer:
+                "Shopify website development refers to the entire process of creating and optimizing online stores on the Shopify platform. Adaired provides Shopify website development services to businesses of all sizes and niches. We specialize in customizing website layouts and improving functionality to showcase products or services effectively. Contact us today to build a website that aligns with your business or brand's needs and goals. ",
+            },
+            {
+              question:
+                "Can You Customize Existing Extensions For My Shopify Store?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
+            },
+            {
+              question: "How Much Does It Cost To Build A Shopify Website?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
+            },
+            {
+              question:
+                "Can You Migrate My E-Commerce Store From Another Platform To Shopify Without Disrupting The Business?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
+            },
+            {
+              question:
+                "Can You Help With Content Creation For My Shopify Store?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
+            },
+          ],
+        },
+      },
     ],
     createdAt: "",
     updatedAt: "",
@@ -199,6 +336,38 @@ export const ServiceData = [
               title: "Analytics-Driven Strategies",
               description:
                 "Utilize data insights to refine continuous improvement strategies and ensure ongoing business growth.",
+            },
+          ],
+        },
+      },
+      {
+        body: {
+          faq: [
+            {
+              question: "Why Should I Choose WordPress For My Website?",
+              answer:
+                "WordPress is a powerful Content Management System (CMS) that provides scalability, versatility, and user-friendliness. Its adaptable architecture allows for the seamless integration of plugins and themes, making it easy to create custom websites. Our team of WordPress experts utilizes this system to develop various e-commerce stores, blogs, portfolios, and even complex business websites. ",
+            },
+            {
+              question:
+                "How Much Time Does It Take To Create A Website Using WordPress?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
+            },
+            {
+              question: "Can You Migrate My Existing Website To WordPress?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
+            },
+            {
+              question: "How Much Do WordPress Development Services Cost?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
+            },
+            {
+              question: "What Other Services Does Adaired Provide?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
             },
           ],
         },
@@ -241,6 +410,38 @@ export const ServiceData = [
               title: "Analytics-Driven Strategies",
               description:
                 "Utilize data insights to refine continuous improvement strategies and ensure ongoing business growth.",
+            },
+          ],
+        },
+      },
+      {
+        body: {
+          faq: [
+            {
+              question: "Why Choose PHP For Web Development?",
+              answer:
+                "PHP allows quick development due to its simple syntax, extensive libraries, and frameworks. It is cross-platform compatible and runs smoothly on Windows, macOS, and Linux. Open source flexibility enables more efficient resource allocation to other critical aspects of business operations.",
+            },
+            {
+              question:
+                "How Much Time Does It Take To Create A Website Using WordPress?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
+            },
+            {
+              question: "Can You Migrate My Existing Website To WordPress?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
+            },
+            {
+              question: "How Much Do WordPress Development Services Cost?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
+            },
+            {
+              question: "What Other Services Does Adaired Provide?",
+              answer:
+                "Graphic design services allow brands to communicate their businesses effectively with the audience while establishing a visual brand identity in the industry. These services encompass various elements such as logo design, web design, print design, social media graphics, and more. A graphic designer employs pictures, images, and other graphics to create appealing and effective designs that fit the business and its goals.",
             },
           ],
         },
@@ -641,7 +842,7 @@ export const ServiceData = [
     updatedAt: "",
     __v: 0,
   },
-  { 
+  {
     _id: 16,
     metaTitle: "Expert Web Designing & Development Services | Adaired",
     metaDescription:
@@ -678,7 +879,7 @@ export const ServiceData = [
             },
           ],
         },
-      }, 
+      },
     ],
     createdAt: "",
     updatedAt: "",
@@ -745,8 +946,7 @@ export const ServiceData = [
     bodyData: [
       {
         body: {
-          title:
-            "Expert Local SEO Services To Rank On Local Search Results",
+          title: "Expert Local SEO Services To Rank On Local Search Results",
           description_1: "",
           description_2: "",
           imgUrl:
