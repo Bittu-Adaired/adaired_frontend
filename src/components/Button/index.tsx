@@ -6,6 +6,7 @@ type ButtonProps = {
   title: string;
   icon?: keyof typeof Icons;
   className?: string;
+  textClassName?: string;
   svgClassName?: string;
   navigateTo?: string;
   target?: string;
@@ -21,7 +22,7 @@ const Button: React.FC<ButtonProps> = (props) => {
 
   const buttonContent = (
     <>
-      {props.title}{" "}
+      <p className={`${props.textClassName}`}>{props.title}</p>
       <span
         className={`animate-pulse absolute right-2 p-1 rounded-full transition-all   ${props.svgClassName}`}
       >

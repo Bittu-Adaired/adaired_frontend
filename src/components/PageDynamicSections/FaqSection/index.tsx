@@ -16,13 +16,12 @@ type FaqSectionProps = {
 };
 
 const FaqSection: React.FC<FaqSectionProps> = ({ faqs }) => {
-  console.log(faqs);
   return (
     <div>
       <h2 className="text-[38px] font-nunito font-semibold text-gray-900">
         Frequently Asked Questions
       </h2>
-      <Accordion type="single" collapsible >
+      <Accordion type="single" collapsible>
         {faqs.map((faq) => {
           return (
             <AccordionItem

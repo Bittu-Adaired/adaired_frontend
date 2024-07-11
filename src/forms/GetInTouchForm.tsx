@@ -108,7 +108,7 @@ function GetInTouchForm() {
                     type="text"
                     placeholder="Name"
                     {...field}
-                    className="focus-visible:ring-offset-0 focus-visible:ring-0 rounded-lg text-lg mb-4 bg-[#fafafa] border-none"
+                    className="focus-visible:ring-offset-0 focus-visible:ring-0 rounded-lg text-lg mb-4 "
                   />
                 </FormControl>
                 <FormMessage />
@@ -125,7 +125,7 @@ function GetInTouchForm() {
                     type="email"
                     placeholder="Email"
                     {...field}
-                    className="focus-visible:ring-offset-0 focus-visible:ring-0 rounded-lg text-lg mb-4 bg-[#fafafa] border-none"
+                    className="focus-visible:ring-offset-0 focus-visible:ring-0 rounded-lg text-lg mb-4 "
                   />
                 </FormControl>
                 <FormMessage />
@@ -142,7 +142,7 @@ function GetInTouchForm() {
                     placeholder="Message"
                     rows={5}
                     {...field}
-                    className="focus-visible:ring-offset-0 focus-visible:ring-0 rounded-lg text-lg mb-4 bg-[#fafafa] border-none"
+                    className="focus-visible:ring-offset-0 focus-visible:ring-0 rounded-lg text-lg mb-4 "
                   />
                 </FormControl>
                 <FormMessage />
@@ -150,9 +150,10 @@ function GetInTouchForm() {
             )}
           />
           <Button
-            title="Send Your Enquiry"
-            className="bg-white text-black "
-            svgClassName="bg-[#F89520] group-hover/btn:right-[11rem]"
+            title="View More Information"
+            className="bg-white text-black w-full border-[#FB9100] pl-0 pr-0 hover:pl-0 hover:pr-0 justify-center"
+            textClassName="text-center"
+            svgClassName="bg-[#000000] "
             type="submit"
           />
         </form>

@@ -10,9 +10,20 @@ import { ServiceData } from "@/data/services/serviceData";
 // Sections
 import TwoColumnFeatureSection from "@/components/PageDynamicSections/TwoColumnFeatureSection";
 import FaqSection from "@/components/PageDynamicSections/FaqSection";
+import ImageWithDetailedFeatureDescription from "@/components/PageDynamicSections/ImageWithDetailedFeatureDescription";
+import ProcessSection from "@/components/PageDynamicSections/ProcessSection";
+import GetInTouchForm from "@/forms/GetInTouchForm";
 
 const findService = (slug: string) => {
   return ServiceData.find((service) => service.slug === slug);
+};
+
+const fetchservice = async (slug: string) => {
+  const result = await fetch(
+    `${process.env.NEXT_PUBLIC_BACKEND_API_URI}/service/getServices/${slug}`
+  );
+  const data = await result.json();
+  return data;
 };
 
 export async function generateMetadata({
@@ -42,6 +53,12 @@ interface ServiceProps {
 
 const ServicePage: React.FC<ServiceProps> = async ({ params }) => {
   const service = findService(params.slug);
+  const fetchedService = await fetchservice(params.slug);
+  const { bodyData } = fetchedService;
+
+  if (!fetchedService) {
+    return <div>Service not found</div>; // Return 404 page if service not found in API
+  }
 
   if (!service) {
     return <div>Service not found</div>;
@@ -49,9 +66,9 @@ const ServicePage: React.FC<ServiceProps> = async ({ params }) => {
 
   return (
     <>
-      <PageBanner title={service.serviceName} />
+      <PageBanner title={fetchedService.serviceName} />
       <MaxWidthWrapper>
-        <div className="flex justify-between items-center gap-5 py-12 ">
+        <div className="flex justify-between items-center gap-10 py-12 ">
           <div className="w-[70%]">
             <TwoColumnFeatureSection
               colorScheme={service.colorScheme}
@@ -60,7 +77,14 @@ const ServicePage: React.FC<ServiceProps> = async ({ params }) => {
           </div>
           <aside className="w-[30%]">
             <NavigationMenu serviceName={service.serviceName} />
+            <GetInTouchForm />
           </aside>
+        </div>
+        <div>
+          <ProcessSection colorScheme={fetchedService.colorScheme}/>
+        </div>
+        <div>
+          <ImageWithDetailedFeatureDescription />
         </div>
         <div>
           <FaqSection faqs={service?.bodyData[1]?.body?.faq ?? []} />
