@@ -45,6 +45,18 @@ export async function generateMetadata({
   };
 }
 
+export async function generateStaticParams() {
+  const res = await fetch(
+    `${process.env.NEXT_PUBLIC_BACKEND_API_URI}/service/getServices`
+  );
+  const data = await res.json();
+  const newData = data;
+  return newData.map((service: any) => ({
+    slug: service.slug.toString(),
+  }));
+}
+
+
 interface ServiceProps {
   params: {
     slug: string;
